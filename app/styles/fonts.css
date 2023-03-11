@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "AreaNormal";
+  src: url("../fonts/Area.ttf");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Doulous";
+  src: url("../fonts/Doulos.ttf");
+  font-style: normal;
+  font-display: swap;
+}

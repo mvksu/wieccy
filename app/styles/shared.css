@@ -1,0 +1,25 @@
+.underline-left-to-right {
+  position: relative;
+}
+
+.underline-left-to-right::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #333;
+  transition: width 0.2s ease-in-out;
+}
+
+.underline-left-to-right:hover::before {
+  width: 100%;
+}
+
+.navbar-centered {
+  position: fixed;
+  width: 100%;
+  margin-right: 50px;
+
+}
