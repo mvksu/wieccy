@@ -11,22 +11,27 @@ export default function Footer() {
                     <h1 className="text-xl py-4">NA SKRÓTY</h1>
                     <Link to={"/"} className="py-4">HOME</Link>
                     <Link to={"/"} className="py-4">O FIRME</Link>
-                    <Link to={"/"} className="py-4">GODZINY OTWARCIA</Link>
-                    <Link to={"/"} className="py-4">OFERTY</Link>
-                    <Link to={"/"} className="py-4">PROMOCJE</Link>
+                    <Link to={"/"} className="py-4">USŁUGI</Link>
                     <Link to={"/"} className="py-4">AKTUALNOŚĆI</Link>
                     <Link to={"/"} className="py-4">POLITYKA PRYWATNOŚCI</Link>
                 </div>
                 <div className="mt-8">
-                    <h1 className="text-xl py-4">KONTAKT</h1>
-                    <li className="py-4">+48 533 643 011</li>
-                    <li className="py-4">BRUSY</li>
-                    <li className="py-4">UL. JANA PAWŁA 2</li>
-                    <li className="py-4">WIECCY@WP.PL</li>
+                    <div>
+                        <h1 className="text-xl py-4">KONTAKT</h1>
+                        <li className="py-4">+48 533 643 011</li>
+                        <li className="py-4">UL. JANA PAWŁA 2, BRUSY</li>
+                        <li className="py-4">WIECCY@WP.PL</li>
+                    </div>
+                    <div>
+                        <h1 className="text-xl py-4">KONTAKT</h1>
+                        <li className="py-4">+48 533 643 011</li>
+                        <li className="py-4">UL. JANA PAWŁA 2, BRUSY</li>
+                        <li className="py-4">WIECCY@WP.PL</li>
+                    </div>
                 </div>
                 <div className="mt-8">
                     <h1 className="text-xl  py-4">SKONTAKTUJ SIĘ Z NAMI</h1>
-                    <input type="text" className=" px-6 py-4 my-8  rounded-3xl bg-sandi border-2 border-dark-green" />
+                    <input type="text" className=" px-6 py-3 my-8  rounded-3xl bg-sandi border-2 border-dark-green" />
                     <img src={logo} alt="" />
                 </div>
             </div>
