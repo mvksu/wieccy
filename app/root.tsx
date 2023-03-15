@@ -16,6 +16,7 @@ import fonts from "./styles/fonts.css"
 import shared from "./styles/shared.css"
 import { getUser } from "./session.server";
 import Navbar from "./shared/components/Navbar";
+import MarqueeComponent from './shared/components/Marquee/index';
 
 // export const links: LinksFunction = () => {
 //   return [{ rel: "stylesheet", href: tailwindStylesheetUrl }, { rel: "stylesheet", href: fonts }];
@@ -45,8 +46,9 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="h-full box-border">
+      <body className="box-border">
         <ParallaxProvider>
+          <MarqueeComponent />
           <Navbar />
           <Outlet />
           <ScrollRestoration />
